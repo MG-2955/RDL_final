@@ -1,6 +1,22 @@
-.title {
-    width: 930px;
-    max-width: 90%;
+.access {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.access h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.access h1::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
 }
