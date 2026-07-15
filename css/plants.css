@@ -1,0 +1,93 @@
+.plants {
+    background-color: #f8f8f8;
+    font-size: 200;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.plants h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plants h1::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plants p {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.season h2 {
+    font-size: 30px;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.season-spring h2 {
+    background-color: #ffe6ea;
+}
+
+.season-spring_summer h2 {
+    background-color: #e8f5d4;
+}
+
+.season-summer h2 {
+    background-color: #d4f0ff;
+}
+
+.season-autumn h2 {
+    background-color: #ffe8c4;
+}
+
+.plants-list {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: scroll;
+}
+
+.plants-list li {
+    flex-shrink: 0;
+    width: 260px;
+    margin-left: 75px;
+}
+
+.plants-list li:first-child {
+    margin-left: 0;
+}
+.plants-list dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.plants-list dd {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .plants-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .plnats-list il {
+        width: 200px;
+        margin-left: 30px;
+    }
+}
