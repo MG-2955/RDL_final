@@ -54,3 +54,25 @@
     border: 1px solid black;
     padding: 12px 16px;
 }
+
+@media (max-width: 800px) {
+    .map {
+        max-width: 95%;
+    }
+
+    .map iframe {
+        height: 350px;
+    }
+
+    .infomation {
+        font-size: 16px;
+    }
+
+    .infomation th {
+        padding: 10px;
+    }
+    
+    .infomation td {
+        padding: 10px;
+    }
+}
